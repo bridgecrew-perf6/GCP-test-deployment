@@ -14,6 +14,7 @@ Created on Thu Nov 11 21:59:13 2021
 
 import os
 import pandas as pd
+import numpy as np
 from flask import Flask, jsonify
 from flaskext.mysql import MySQL
 from flask import Flask, jsonify, request

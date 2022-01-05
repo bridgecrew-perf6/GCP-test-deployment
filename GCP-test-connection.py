@@ -18,6 +18,7 @@ import numpy as np
 from flask import Flask, jsonify
 from flaskext.mysql import MySQL
 from flask import Flask, jsonify, request
+from pip import __main__
 
 
 app = Flask(__name__)

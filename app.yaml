@@ -14,7 +14,7 @@
 
 runtime: python
 env: flex
-entrypoint: gunicorn -bind 0.0.0.0:8000  GCP-test-connection:application
+entrypoint: gunicorn -bind 0.0.0.0:8000  main:app
 
 runtime_config:
   python_version: 3
